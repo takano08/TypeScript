@@ -1,0 +1,27 @@
+{
+  "name": "ts-basic",
+  "version": "1.0.0",
+  "description": "TypeScript training",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack-cli serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takano08/TypeScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takano08/TypeScript/issues"
+  },
+  "homepage": "https://github.com/takano08/TypeScript#readme",
+  "devDependencies": {
+    "ts-loader": "^9.2.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
