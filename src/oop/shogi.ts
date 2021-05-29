@@ -49,7 +49,6 @@ class Osho extends Piece {
     return distance.suji < 2 && distance.dan < 2
   }
 }
-
 class Game {
   private pieces = Game.makePieces()
   private static makePieces() {
